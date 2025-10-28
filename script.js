@@ -24,3 +24,4 @@ calcBtn.addEventListener("click", () => {
   resultEl.textContent = `✅ Рестото е ${change} лв.`;
   resultEl.style.color = "green"; // зелен текст
 });
+
