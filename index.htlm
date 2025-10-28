@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🧮 Ресто</title>
+</head>
+<body>
+  <h1>🧮 Ресто</h1>
+
+  <div>
+    <label>Цена на покупката (лв):</label><br>
+    <input type="number" id="price" placeholder="Пример: 12.50" step="0.01"><br><br>
+
+    <label>Дадени пари (лв):</label><br>
+    <input type="number" id="given" placeholder="Пример: 20.00" step="0.01"><br><br>
+
+    <button id="calcBtn">💵 Изчисли ресто</button>
+  </div>
+
+  <h2>Резултат</h2>
+  <p id="result" style="font-size: 22px; font-weight: bold;">—</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
